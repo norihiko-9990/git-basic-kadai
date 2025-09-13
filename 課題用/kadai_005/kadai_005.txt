@@ -1,0 +1,47 @@
+PS C:\Users\nyama\OneDrive\デスクトップ\プログラミング勉強ファイル\git_challenge> git init
+Initialized empty Git repository in C:/Users/nyama/OneDrive/デスクトップ/プログラ ミング勉強ファイル/git_challenge/.git/
+PS C:\Users\nyama\OneDrive\デスクトップ\プログラミング勉強ファイル\git_challenge> git add hello_world.txt
+PS C:\Users\nyama\OneDrive\デスクトップ\プログラミング勉強ファイル\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) ec2518e] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\nyama\OneDrive\デスクトップ\プログラミング勉強ファイル\git_challenge> git commit -m "日本語訳を追記"
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\nyama\OneDrive\デスクトップ\プログラミング勉強ファイル\git_challenge>git diff
+PS C:\Users\nyama\OneDrive\デスクトップ\プログラミング勉強ファイル\git_challenge>git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\nyama\OneDrive\デスクトップ\プログラミング勉強ファイル\git_challenge>git add hello_world.txt
+PS C:\Users\nyama\OneDrive\デスクトップ\プログラミング勉強ファイル\git_challeng> git commit -m "日本語訳を追記"
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\nyama\OneDrive\デスクトップ\プログラミング勉強ファイル\git_challenge>git log
+commit ec2518e8757d9fa4b5f8566cede66bb887d88c38 (HEAD -> main)
+Author: norihiko9990 <yuenuko.waterlily1218@gmail.com>
+Date:   Fri Sep 12 14:38:05 2025 +0900
+
+    hello_world.txtを追加
+PS C:\Users\nyama\OneDrive\デスクトップ\プログラミング勉強ファイル\git_challeng> echo "こんにちわ、世界！" >> hello_world.txt
+PS C:\Users\nyama\OneDrive\デスクトップ\プログラミング勉強ファイル\git_challeng> git commit -m "日本語訳を追加"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\nyama\OneDrive\デスクトップ\プログラミング勉強ファイル\git_challenge>git add hello_world.txt
+PS C:\Users\nyama\OneDrive\デスクトップ\プログラミング勉強ファイル\git_challeng> git commit -m "日本語訳を追加"
+[main 42554a3] 日本語訳を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\nyama\OneDrive\デスクトップ\プログラミング勉強ファイル\git_challenge>git log
+commit 42554a3e6ce8ff59d88c0806ecbc0ae642ddbd9e (HEAD -> main)
+Author: norihiko9990 <yuenuko.waterlily1218@gmail.com>
+Date:   Fri Sep 12 15:07:56 2025 +0900
+
+    日本語訳を追加
+
+commit ec2518e8757d9fa4b5f8566cede66bb887d88c38
+Author: norihiko9990 <yuenuko.waterlily1218@gmail.com>
+Date:   Fri Sep 12 14:38:05 2025 +0900
